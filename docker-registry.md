@@ -1,4 +1,4 @@
-# Zero-to-Docker: Baby step onto Private Docker Registry
+# Zero-to-Docker: Private Docker Registry
 After building you first Docker containers you looking for a place place to store and share docker containers. Thins page should help you when realize that using [hub.docker.io](hub.docker.io) is not enough for you.
 
 http://blog.octo.com/en/docker-registry-first-steps/
