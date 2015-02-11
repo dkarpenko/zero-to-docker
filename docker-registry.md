@@ -59,7 +59,7 @@ end
 ### Configuring Docker Registry with Ansible
 In the same manner as you configure Docker Registry using Chef, you can use Ansible playbook [nextrevision/ansible-docker-registry](https://github.com/nextrevision/ansible-docker-registry).
 It allows you to setup registry, configure SSL and storage (local or S3) for containers.
-Also Ansible can be used for managing Docker containers; some details on this available on their [official page](http://www.ansible.com/docker).
+Also, this particular Ansible playbook can be used for managing Docker containers; some details on this available on their [official page](http://www.ansible.com/docker).
 
 
 ### Testing connection to Docker Registry
