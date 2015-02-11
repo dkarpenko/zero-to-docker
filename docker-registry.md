@@ -22,7 +22,7 @@ Topics covered in this publications are:
 
 Also this article can be really helpful for you, if you want to automate setup of registry with any tool (Chef, Puppet or even Docker container).
 ### Configuring Docker Registry with Chef
-if you decided just to install docker on instance it's more preferable to use (Chef cookbook)[https://github.com/bflad/chef-docker].
+if you decided just to install docker on instance it's more preferable to use [Chef cookbook](https://github.com/bflad/chef-docker).
 Cookbook supports installation on a variety of platforms and provides recipes for managing containers (pull/push form private registry, tagging containers, ...).
 This cookbook can really help you not even to setup Docker Registry, but automate some routine related to containers management on your Dev/QA instances (pull, stop, start, kill).
 ```ruby
