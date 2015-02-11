@@ -1,5 +1,5 @@
 # Zero-to-Docker: Private Docker Registry
-After building you first Docker containers you looking for a place place to store and share docker containers. Thins page should help you when realize that using [hub.docker.io](hub.docker.io) is not enough for you.
+After building you first Docker containers you looking for a place place to store and share docker containers. Thins page should help what to do next when you realize that [hub.docker.io](hub.docker.io) is not suitable for you.
 
 ## Running Docker Registry
 [Official Registry Server for Docker](https://github.com/docker/docker-registry) is a web application which can hosted on any server capable to run python applications.
