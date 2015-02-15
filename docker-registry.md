@@ -91,6 +91,13 @@ sudo service docker restart
 ```
 All details you can find on the section dedicated to [insecure-registry](https://github.com/boot2docker/boot2docker#insecure-registry).
 
+### Configuring Centos 
+```
+sudo vim /etc/sysconfig/docker
+
+OPTIONS=--selinux-enabled -H fd:// --insecure-registry=<docker_registry_host>:<port>
+```
+
 ## Publishing image
  Let's assume that `<image_id>` is and ID of Docker image you see via `docker images` command.
 
