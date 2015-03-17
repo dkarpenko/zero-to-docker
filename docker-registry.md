@@ -253,3 +253,8 @@ There are a few documents describing an API of the Docker Hub and Registry:
 ### JFrog Artifactory
 With such features, already implemented, as LDAP and SAML integration, ACLs, Artifactory can be a good option for 'corporate' customers. And, of course, it implements all Docker API.
 http://www.jfrog.com/article/docker/
+
+## Docker Registry Maintenance
+### Cleanup registry from unused (unreachable) containers
+* [kwk/c5443f2a1abcf0eb1eaa](https://gist.github.com/kwk/c5443f2a1abcf0eb1eaa)
+* [Stack Overflow| Deleting images from a private docker registry](http://stackoverflow.com/questions/25436742/deleting-images-from-a-private-docker-registry)
